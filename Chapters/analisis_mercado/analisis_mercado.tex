@@ -1,1 +1,63 @@
-\section{seccion 1}
+
+El presente análisis evalúa, en forma teórica, la posibilidad de inserción de un sistema robótico terrestre autónomo con capacidades de detección y neutralización de amenazas aéreas de baja cota (drones), con foco en su eventual presentación a las Fuerzas Armadas de la República Argentina.
+
+\section{Cliente objetivo primario en Argentina}
+
+El cliente objetivo primario es el Estado Nacional, en particular el sector defensa, ya que el producto se alinea con funciones de vigilancia, protección de objetivos críticos y apoyo a operaciones militares. Dentro de este marco, el \textbf{Fondo Nacional de la Defensa (FONDEF)} constituye un instrumento relevante para proyectos de reequipamiento y modernización [1].\footnote{[1] Ley 27.565 (FONDEF), Boletín Oficial, \href{https://www.boletinoficial.gob.ar/detalleAviso/primera/235602/20201001}{enlace oficial}.}
+
+La Ley 27.565 establece que el FONDEF financia la recuperación, modernización e incorporación de material para las Fuerzas Armadas, y además fija criterios que favorecen [2].\footnote{[2] Ministerio de Defensa, FONDEF, \href{https://www.argentina.gob.ar/defensa/fondo-nacional-de-la-defensa-fondef}{enlace oficial}.}
+\begin{itemize}
+    \item Sustitución de importaciones y desarrollo de proveedores locales.
+    \item Innovación tecnológica e industrial.
+    \item Acciones de investigación y desarrollo en sector público y privado.
+\end{itemize}
+
+Estos criterios son consistentes con un desarrollo nacional que combine hardware, software, simulación y capacidades de integración.
+
+\section{Mercados potenciales para el producto}
+
+\subsection{Sector público argentino}
+\begin{itemize}
+    \item \textbf{Defensa:} presentación de capacidad al Ministerio de Defensa y Fuerzas Armadas, con foco en vigilancia de instalaciones, protección de bases y apoyo a defensa de punto contra drones.
+    \item \textbf{Seguridad interior:} fuerzas federales y organismos de seguridad para resguardo de infraestructura crítica y eventos de alta exposición [3].\footnote{[3] Decreto 21/2025 (sistema antidrones), \href{https://www.boletinoficial.gob.ar/detalleAviso/primera/319500/20250113}{enlace oficial}.}
+\end{itemize}
+
+En términos de canal formal de contratación, las adquisiciones estatales se publican y gestionan en la plataforma COMPR.AR [4],\footnote{[4] Portal COMPR.AR, \href{https://comprar.gob.ar/}{enlace}.} con avisos vinculados en Boletín Oficial, incluyendo procesos de organismos militares [5].\footnote{[5] Ejemplo de contratación (Armada Argentina), \href{https://www.boletinoficial.gob.ar/detalleAviso/tercera/2405403/20251210}{enlace oficial}.}
+
+Como referencia comparada para compras de capacidades complejas de defensa, los procesos de NSPA (OTAN) muestran estructuras documentales con \textit{Statement of Work}, matriz de evaluación técnica y requisitos de seguridad [6].\footnote{[6] NSPA eProcurement, oportunidad C-UAS, \href{https://eportal.nspa.nato.int/eProcurement5G/Opportunities/Opportunities/RequestForProposalDetails/piTFTh8PiEAou5b7PociWA}{enlace}.}
+
+En el plano regional, existen antecedentes de adquisiciones públicas de drones por fuerzas armadas, como la compra de drones de observación del Ejército de Chile [7].\footnote{[7] ChileCompra, Licitación ID 3385-5-L124, \href{https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3385-5-L124}{enlace}.}
+
+\section{Análisis de costos del prototipo}
+
+Para esta etapa se estimó el costo de los componentes principales del prototipo físico. El análisis se limita al prototipo actual y no incluye costos de ingeniería, mano de obra, integración ni escalado productivo.
+Para el costo de energía de impresión 3D se considera un consumo típico de impresora Ender 3 en régimen de trabajo continuo [8].\footnote{[8] Referencia de consumo típico Ender 3 (rango de operación y promedio): \href{https://3dsolved.com/ender-3-power-consumption/}{enlace}.}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{6.1cm} c c c}
+\toprule
+\textbf{Componente} & \textbf{Cant.} & \textbf{Unitario (ARS)} & \textbf{Total (ARS)} \\
+\midrule
+Telémetro láser de largo alcance con interfaz digital y kit de envío internacional & 1 & 178.150 & 178.150 \\
+Escáner LiDAR 2D de 360° para mapeo y navegación (tipo Slamtec A1M8) & 1 & 280.000 & 280.000 \\
+Driver doble puente H para motores DC (tipo L298) & 2 & 3.332 & 6.664 \\
+Módulo GNSS/GPS de posicionamiento con antena activa (tipo NEO-6M) & 1 & 12.141 & 12.141 \\
+Marcadora neumática de baja energía para pruebas de puntería (plataforma airsoft) & 1 & 476.000 & 476.000 \\
+Batería sellada de gel 12 V 7 Ah para tracción y electrónica & 2 & 30.000 & 60.000 \\
+Conjunto de motores DC con reductora para tracción diferencial (kit x3) & 1 & 184.800 & 184.800 \\
+Motor paso a paso NEMA 23 con reductor para eje de torreta & 1 & 138.600 & 138.600 \\
+Microcontrolador de control embebido (formato Nano, MCU RP2040) & 1 & 150.000 & 150.000 \\
+Cámara USB HD para adquisición de video en tiempo real & 1 & 29.000 & 29.000 \\
+Kit de fijación mecánica (varillas roscadas, tuercas y arandelas) & 1 & 28.747 & 28.747 \\
+Filamento PLA para fabricación aditiva (bobinas de 1 kg) & 7 & 18.000 & 126.000 \\
+Rodamientos radiales sellados para ejes (pack x10, tipo 6202-2RS) & 1 & 24.000 & 24.000 \\
+Consumo eléctrico de impresión 3D (40 h de operación, Ender 3) & 1 & 656 & 656 \\
+\midrule
+\textbf{Total estimado del prototipo} &  &  & \textbf{1.694.758} \\
+\bottomrule
+\end{tabular}
+\caption{Estimación de costos de componentes principales del prototipo.}
+\label{tab:costos_prototipo}
+\end{table}

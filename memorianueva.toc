@@ -1,0 +1,66 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Resumen}{\es@scroman {i}}{section*.1}%
+\contentsline {chapter}{\numberline {1}Presentación}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introducción}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Antecedentes}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Estado del Arte}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Áreas Profesionales de Relevancia}{3}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Alcance y Objetivos}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Objetivos generales}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Objetivos particulares}{5}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Introducción Teórica}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Detección de imágenes}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Mapeo}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Path planning}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Seguimiento de ruta}{11}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Simulación}{12}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Analisis técnico}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}sección 1}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}sección 2}{13}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Analisis de mercado}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Cliente objetivo primario en Argentina}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Mercados potenciales para el producto}{15}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Sector público argentino}{15}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Análisis de costos del prototipo}{16}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Prototipo}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Selección de componentes}{19}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Ruedas}{19}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}motores de tracción}{20}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Motores de la torreta}{21}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Drivers de motor}{21}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.1.5}Interfaz con la PC}{21}{subsection.6.1.5}%
+\contentsline {subsection}{\numberline {6.1.6}Baterias}{21}{subsection.6.1.6}%
+\contentsline {section}{\numberline {6.2}Chasis}{22}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Análisis de Implementación}{22}{subsection.6.2.1}%
+\contentsline {subsubsection}{Ejes}{22}{section*.11}%
+\contentsline {subsubsection}{Largueros del chasis}{23}{section*.13}%
+\contentsline {subsubsection}{Pisos}{24}{section*.15}%
+\contentsline {subsubsection}{Coraza superior}{25}{section*.17}%
+\contentsline {subsubsection}{Torreta}{25}{section*.19}%
+\contentsline {subsubsection}{Ensamblaje completo}{26}{section*.21}%
+\contentsline {subsection}{\numberline {6.2.2}Conclusiones del Análisis de Implementación}{27}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Software}{27}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Máquina de Estados Finitos}{28}{subsection.6.3.1}%
+\contentsline {subsubsection}{Estados Principales}{28}{section*.23}%
+\contentsline {subsection}{\numberline {6.3.2}Análisis de Implementación}{29}{subsection.6.3.2}%
+\contentsline {subsubsection}{Control Central y Coordinación de Módulos}{29}{section*.26}%
+\contentsline {subsubsection}{Seguimiento de Objetivos y Control de Torreta}{30}{section*.27}%
+\contentsline {subsubsection}{Navegación Autónoma y Planificación de Rutas}{31}{section*.28}%
+\contentsline {subsubsection}{Comunicación y Mensajería entre Módulos}{32}{section*.29}%
+\contentsline {subsubsection}{Configuración y Modularidad del Sistema}{32}{section*.30}%
+\contentsline {subsection}{\numberline {6.3.3}Conclusiones del Análisis de Implementación}{32}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Interfaz y control de motores}{33}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Análisis de Implementación}{33}{subsection.6.4.1}%
+\contentsline {subsubsection}{Comunicacion}{33}{section*.31}%
+\contentsline {subsubsection}{Drivers}{34}{section*.34}%
+\contentsline {subsubsection}{Drivers para motor de tracción}{35}{section*.35}%
+\contentsline {subsubsection}{Driver motor torreta}{35}{section*.36}%
+\contentsline {subsection}{\numberline {6.4.2}Conclusiones del Análisis de Implementación}{35}{subsection.6.4.2}%
+\contentsline {chapter}{\numberline {7}Simulador}{37}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Entorno de Simulación}{37}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Pruebas y resultados}{39}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Resultados Simulación}{39}{section.8.1}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{41}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Conclusiones generales }{41}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Próximos Pasos}{41}{section.9.2}%
+\contentsline {chapter}{\numberline {A}Anexo A: Fuentes del análisis de mercado}{43}{appendix.Alph1}%
