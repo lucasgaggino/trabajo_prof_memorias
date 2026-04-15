@@ -59,8 +59,15 @@
 \contentsline {chapter}{\numberline {7}Simulador}{37}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Entorno de Simulación}{37}{section.7.1}%
 \contentsline {chapter}{\numberline {8}Pruebas y resultados}{39}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Resultados Simulación}{39}{section.8.1}%
-\contentsline {chapter}{\numberline {9}Conclusiones}{41}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Conclusiones generales }{41}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Próximos Pasos}{41}{section.9.2}%
-\contentsline {chapter}{\numberline {A}Anexo A: Fuentes del análisis de mercado}{43}{appendix.Alph1}%
+\contentsline {section}{\numberline {8.1}Pruebas en simulación}{39}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Estructura de documentación de pruebas}{39}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Prueba 1: Navegación autónoma y mapeo con LiDAR simulado}{39}{subsection.8.1.2}%
+\contentsline {subsubsection}{Descripción de la prueba}{39}{section*.38}%
+\contentsline {paragraph}{Objetivos mínimos}{40}{section*.39}%
+\contentsline {subsubsection}{Criterios de aprobación}{40}{section*.40}%
+\contentsline {subsubsection}{Procedimiento de ejecución}{40}{section*.42}%
+\contentsline {subsubsection}{Resultados}{41}{section*.43}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{43}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Conclusiones generales }{43}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Próximos Pasos}{43}{section.9.2}%
+\contentsline {chapter}{\numberline {A}Anexo A: Fuentes del análisis de mercado}{45}{appendix.Alph1}%

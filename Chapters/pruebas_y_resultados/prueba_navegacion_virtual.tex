@@ -1,0 +1,91 @@
+\subsection{Prueba 1: Navegación autónoma y mapeo con LiDAR simulado}
+
+\subsubsection{Descripción de la prueba}
+
+Esta prueba valida el comportamiento del módulo de navegación autónoma en un entorno virtual con mapeo simultáneo. El robot debe construir un mapa de ocupación a partir del LiDAR simulado, planificar trayectoria y completar un recorrido prolongado sin perder la consistencia global de localización.
+
+El ensayo incluye además un evento dinámico: un objetivo cruza la trayectoria del robot durante la navegación. Frente a esta condición, el sistema debe interrumpir el avance, priorizar el seguimiento del objetivo y recién retomar la marcha cuando el evento finaliza.
+
+\paragraph{Objetivos mínimos}
+\begin{itemize}
+    \item Verificar que el sistema completa una trayectoria equivalente a 200 veces la longitud del robot.
+    \item Validar la calidad del mapa generado respecto del mapa de referencia del entorno.
+    \item Verificar el error de posicionamiento global bajo modelado de medición con ruido tipo GPS.
+    \item Verificar la conmutación de estado de \texttt{NAVIGATING} a \texttt{TRACKING} ante cruce de objetivo.
+    \item Medir tiempos de ejecución y continuidad de operación sin colisiones.
+\end{itemize}
+
+\subsubsection{Criterios de aprobación}
+
+Tomando una longitud de robot de $L_r = 0{,}60\ \text{m}$, la distancia mínima de prueba queda definida como:
+\[
+D_{\min} = 200 \cdot L_r = 120\ \text{m}
+\]
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{4.1cm}}
+\toprule
+\textbf{Métrica} & \textbf{Criterio de aprobación} \\
+\midrule
+Distancia total recorrida & $\geq 120\ \text{m}$ \\
+Tiempo total para completar el recorrido & $\leq 10\ \text{min}$ \\
+Colisiones con obstáculos estáticos o dinámicos & 0 eventos \\
+Error global de posicionamiento medio (trayectoria estimada vs referencia) & $\leq 3{,}5\ \text{m}$ \\
+Percentil 95 del error global de posicionamiento & $\leq 5{,}0\ \text{m}$ \\
+Calidad del mapa de ocupación (IoU mapa generado vs mapa de referencia) & $\geq 0{,}75$ \\
+Cobertura del área navegable en el mapa generado & $\geq 90\%$ \\
+Tiempo de reacción ante cruce de objetivo (detección a detención) & $\leq 1{,}5\ \text{s}$ \\
+Avance residual luego de detectar objetivo en cruce & $\leq 0{,}50\ \text{m}$ \\
+\bottomrule
+\end{tabular}
+\caption{Criterios de aprobación para la Prueba 1.}
+\label{tab:criterios_prueba_navegacion}
+\end{table}
+
+\subsubsection{Procedimiento de ejecución}
+
+\begin{enumerate}
+    \item Configurar escenario virtual con obstáculos estáticos, al menos un corredor estrecho y un tramo abierto para navegación prolongada.
+    \item Inicializar el robot en estado \texttt{NAVIGATING}, con LiDAR simulado activo y módulo de mapeo habilitado.
+    \item Definir ruta de misión para asegurar distancia acumulada objetivo de $120\ \text{m}$ o superior.
+    \item Activar registro de datos: trayectoria de referencia, trayectoria estimada, mapa generado, tiempos de estado y eventos de detección.
+    \item Inyectar ruido en posición global reportada para emular medición tipo GPS con precisión de $\pm 5\ \text{m}$.
+    \item Durante el recorrido, forzar el cruce transversal de un objetivo en la trayectoria del robot.
+    \item Verificar transición de estados hacia \texttt{TRACKING}, detención del avance y posterior retorno a \texttt{NAVIGATING}.
+    \item Finalizar el ensayo al superar la distancia mínima o al alcanzar condición de falla.
+\end{enumerate}
+
+\subsubsection{Resultados}
+
+Los siguientes campos se completan luego de ejecutar la simulación.
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{2.2cm} p{2.8cm}}
+\toprule
+\textbf{Métrica} & \textbf{Resultado} & \textbf{Cumple} \\
+\midrule
+Distancia total recorrida [m] & --- & --- \\
+Tiempo total de recorrido [min:s] & --- & --- \\
+Cantidad de colisiones [\#] & --- & --- \\
+Error global medio de posicionamiento [m] & --- & --- \\
+Percentil 95 del error global [m] & --- & --- \\
+IoU mapa generado vs referencia [-] & --- & --- \\
+Cobertura del mapa navegable [\%] & --- & --- \\
+Tiempo detección-detención ante cruce [s] & --- & --- \\
+Avance residual post-detección [m] & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Resultados medidos para la Prueba 1 (a completar).}
+\label{tab:resultados_prueba_navegacion}
+\end{table}
+
+De forma complementaria, se recomienda incluir en la versión final del informe:
+\begin{itemize}
+    \item Mapa de referencia y mapa generado superpuestos.
+    \item Trayectoria de referencia y trayectoria estimada en el mismo plano.
+    \item Registro temporal de estados de misión (\texttt{NAVIGATING}/\texttt{TRACKING}).
+\end{itemize}

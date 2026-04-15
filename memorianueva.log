@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.14)  25 MAR 2026 18:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.14)  15 APR 2026 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1066,7 +1066,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 
 pdfTeX warning: pdflatex.exe (file ./Figures/fondo.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Figures/fondo.pdf, id=263, 597.55246pt x 845.07718pt>
+<Figures/fondo.pdf, id=287, 597.55246pt x 845.07718pt>
 File: Figures/fondo.pdf Graphic file (type pdf)
 <use Figures/fondo.pdf>
 Package pdftex.def Info: Figures/fondo.pdf  used on input line 55.
@@ -1169,7 +1169,7 @@ LaTeX Info: Redefining \% on input line 123.
 (Chapters/introduccion_teorica.tex
 Cap\'{\i }tulo 3.
 (Chapters/introduccion_teorica/introduccion_teorica.tex
-<./Figures/deteccion_ejemplo.png, id=443, 837.1275pt x 604.50844pt>
+<./Figures/deteccion_ejemplo.png, id=478, 837.1275pt x 604.50844pt>
 File: ./Figures/deteccion_ejemplo.png Graphic file (type png)
 <use ./Figures/deteccion_ejemplo.png>
 Package pdftex.def Info: ./Figures/deteccion_ejemplo.png  used on input line 11
@@ -1181,7 +1181,7 @@ Package pdftex.def Info: ./Figures/deteccion_ejemplo.png  used on input line 11
 
 
 ]
-<./Figures/mapeo_lidar_slam.png, id=449, 751.30687pt x 660.21657pt>
+<./Figures/mapeo_lidar_slam.png, id=484, 751.30687pt x 660.21657pt>
 File: ./Figures/mapeo_lidar_slam.png Graphic file (type png)
 <use ./Figures/mapeo_lidar_slam.png>
 Package pdftex.def Info: ./Figures/mapeo_lidar_slam.png  used on input line 29.
@@ -1193,7 +1193,7 @@ LaTeX Info: Redefining \% on input line 35.
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
  [9 <./Figures/mapeo_lidar_slam.png>]
-<./Figures/path_planning_astar.png, id=464, 462.528pt x 346.896pt>
+<./Figures/path_planning_astar.png, id=499, 462.528pt x 346.896pt>
 File: ./Figures/path_planning_astar.png Graphic file (type png)
 <use ./Figures/path_planning_astar.png>
 Package pdftex.def Info: ./Figures/path_planning_astar.png  used on input line 
@@ -1257,7 +1257,7 @@ LaTeX Info: Redefining \% on input line 126.
 ]
 Cap\'{\i }tulo 6.
 (Chapters/prototipo/componentes.tex
-<Figures/rueda.png, id=528, 373.395pt x 365.86688pt>
+<Figures/rueda.png, id=555, 373.395pt x 365.86688pt>
 File: Figures/rueda.png Graphic file (type png)
 <use Figures/rueda.png>
 Package pdftex.def Info: Figures/rueda.png  used on input line 19.
@@ -1266,7 +1266,7 @@ Package pdftex.def Info: Figures/rueda.png  used on input line 19.
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
  [20 <./Figures/rueda.png>]
-<Figures/arduino.jpg, id=539, 1927.2pt x 1145.78062pt>
+<Figures/arduino.jpg, id=566, 1927.2pt x 1145.78062pt>
 File: Figures/arduino.jpg Graphic file (type jpg)
 <use Figures/arduino.jpg>
 Package pdftex.def Info: Figures/arduino.jpg  used on input line 69.
@@ -1276,7 +1276,7 @@ Package pdftex.def Info: Figures/arduino.jpg  used on input line 69.
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
  [21 <./Figures/arduino.jpg>]
-<Figures/eje_corte.png, id=545, 867.24pt x 557.08125pt>
+<Figures/eje_corte.png, id=572, 867.24pt x 557.08125pt>
 File: Figures/eje_corte.png Graphic file (type png)
 <use Figures/eje_corte.png>
 Package pdftex.def Info: Figures/eje_corte.png  used on input line 38.
@@ -1284,7 +1284,7 @@ Package pdftex.def Info: Figures/eje_corte.png  used on input line 38.
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
  [22]
-<Figures/larguero.png, id=550, 875.52094pt x 499.8675pt>
+<Figures/larguero.png, id=577, 875.52094pt x 499.8675pt>
 File: Figures/larguero.png Graphic file (type png)
 <use Figures/larguero.png>
 Package pdftex.def Info: Figures/larguero.png  used on input line 53.
@@ -1292,7 +1292,7 @@ Package pdftex.def Info: Figures/larguero.png  used on input line 53.
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
  [23 <./Figures/eje_corte.png>]
-<Figures/base_sola.png, id=556, 797.22844pt x 514.92375pt>
+<Figures/base_sola.png, id=583, 797.22844pt x 514.92375pt>
 File: Figures/base_sola.png Graphic file (type png)
 <use Figures/base_sola.png>
 Package pdftex.def Info: Figures/base_sola.png  used on input line 64.
@@ -1300,12 +1300,12 @@ Package pdftex.def Info: Figures/base_sola.png  used on input line 64.
 LaTeX Info: Redefining \. on input line 72.
 LaTeX Info: Redefining \% on input line 72.
  [24 <./Figures/larguero.png> <./Figures/base_sola.png>]
-<Figures/coraza sola.png, id=563, 818.30719pt x 411.03563pt>
+<Figures/coraza sola.png, id=590, 818.30719pt x 411.03563pt>
 File: Figures/coraza sola.png Graphic file (type png)
 <use Figures/coraza sola.png>
 Package pdftex.def Info: Figures/coraza sola.png  used on input line 77.
 (pdftex.def)             Requested size: 389.80269pt x 195.80214pt.
-<Figures/corte robot.png, id=564, 715.17188pt x 451.6875pt>
+<Figures/corte robot.png, id=591, 715.17188pt x 451.6875pt>
 File: Figures/corte robot.png Graphic file (type png)
 <use Figures/corte robot.png>
 Package pdftex.def Info: Figures/corte robot.png  used on input line 90.
@@ -1314,7 +1314,7 @@ LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
 
 [25 <./Figures/coraza sola.png>]
-<Figures/robot_completo.png, id=570, 841.64438pt x 609.02531pt>
+<Figures/robot_completo.png, id=597, 841.64438pt x 609.02531pt>
 File: Figures/robot_completo.png Graphic file (type png)
 <use Figures/robot_completo.png>
 Package pdftex.def Info: Figures/robot_completo.png  used on input line 101.
@@ -1336,7 +1336,7 @@ LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
 
 [28]
-<Figures/maquina_de_estados.png, id=588, 2127.95pt x 420.57124pt>
+<Figures/maquina_de_estados.png, id=615, 2127.95pt x 420.57124pt>
 File: Figures/maquina_de_estados.png Graphic file (type png)
 <use Figures/maquina_de_estados.png>
 Package pdftex.def Info: Figures/maquina_de_estados.png  used on input line 60.
@@ -1369,7 +1369,7 @@ LaTeX Info: Redefining \% on input line 138.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [32]
-<Figures/protocolo.png, id=642, 1106.63437pt x 254.45062pt>
+<Figures/protocolo.png, id=669, 1106.63437pt x 254.45062pt>
 File: Figures/protocolo.png Graphic file (type png)
 <use Figures/protocolo.png>
 Package pdftex.def Info: Figures/protocolo.png  used on input line 30.
@@ -1404,7 +1404,7 @@ je de fun-cio-na-li-da-des avan-
  []
 
 [37]
-<Figures/UE5.png, id=670, 709.90219pt x 502.12593pt>
+<Figures/UE5.png, id=697, 709.90219pt x 502.12593pt>
 File: Figures/UE5.png Graphic file (type png)
 <use Figures/UE5.png>
 Package pdftex.def Info: Figures/UE5.png  used on input line 19.
@@ -1417,16 +1417,31 @@ LaTeX Info: Redefining \% on input line 128.
 
  (Chapters/pruebas_y_resultados.tex
 Cap\'{\i }tulo 8.
-(Chapters/pruebas_y_resultados/resultados_virtual.tex)) [39
+(Chapters/pruebas_y_resultados/resultados_virtual.tex
+(Chapters/pruebas_y_resultados/prueba_navegacion_virtual.tex [39
 
 
 
 
 ]
+Overfull \hbox (1.23811pt too wide) in paragraph at lines 28--43
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 57.
+LaTeX Info: Redefining \% on input line 57.
+[40]
+Overfull \hbox (38.84541pt too wide) in paragraph at lines 67--82
+ [][] 
+ []
+
+)))
+LaTeX Info: Redefining \. on input line 129.
+LaTeX Info: Redefining \% on input line 129.
+ [41]
 \openout2 = `Chapters/conclusiones.aux'.
 
-
-(Chapters/conclusiones.tex [40
+ (Chapters/conclusiones.tex [42
 
 
 
@@ -1434,18 +1449,18 @@ Cap\'{\i }tulo 8.
 ]
 Cap\'{\i }tulo 9.
 (Chapters/conclusiones/conclusiones_generales.tex)
-(Chapters/conclusiones/proximos_pasos.tex)) [41]
+(Chapters/conclusiones/proximos_pasos.tex)) [43]
 \openout2 = `Appendices/AppendixA.aux'.
 
  (Appendices/AppendixA.tex
-[42
+[44
 
 
 
 
 ]
 Ap\'{e}ndice A.
-) [43]
+) [45]
 
 LaTeX Warning: Empty bibliography on input line 155.
 
@@ -1471,17 +1486,17 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `memorianueva.out' has not changed.
-(rerunfilecheck)             Checksum: D7C130E7CA329CDB3CF598C9EF8C40C0;10877.
+(rerunfilecheck)             Checksum: 2596030936B3A1A0FC56599EE20AD112;12212.
 Package logreq Info: Writing requests to 'memorianueva.run.xml'.
 \openout1 = `memorianueva.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32863 strings out of 474486
- 710623 string characters out of 5743755
+ 32902 strings out of 474486
+ 711555 string characters out of 5743755
  1960542 words of memory out of 5000000
- 54446 multiletter control sequences out of 15000+600000
- 620545 words of font info for 114 fonts, out of 8000000 for 9000
+ 54463 multiletter control sequences out of 15000+600000
+ 622407 words of font info for 116 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  96i,21n,94p,1971b,2950s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1498,9 +1513,9 @@ Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/lucas/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/lucas/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/lucas
 /AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on memorianueva.pdf (53 pages, 4176571 bytes).
+Output written on memorianueva.pdf (55 pages, 4191317 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
- 187 named destinations out of 1000 (max. 500000)
- 596 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 853 PDF objects out of 1000 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
+ 644 words of extra memory for PDF output out of 10000 (max. 10000000)
 
