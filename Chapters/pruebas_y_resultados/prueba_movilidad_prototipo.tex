@@ -1,0 +1,68 @@
+\subsection{Movilidad y capacidad de superación de terreno del prototipo}
+
+\subsubsection{Descripción de la prueba}
+
+Esta prueba verifica el desempeño mecánico de la plataforma de tracción del prototipo en condiciones representativas de operación terrestre. Se evalúan tres capacidades principales: desplazamiento en terreno plano, giro sobre eje vertical y superación de irregularidades del terreno.
+
+\paragraph{Objetivos mínimos}
+\begin{itemize}
+    \item Sostener una velocidad de traslación de $2\ \text{m/s}$ durante $30\ \text{s}$ en terreno plano.
+    \item Realizar una rotación sobre su eje de $180^\circ$ en $2\ \text{s}$.
+    \item Trepar una pendiente de $15^\circ$ sin pérdida de estabilidad.
+    \item Superar obstáculos de altura entre $5$ y $7\ \text{cm}$ y ancho de $10\ \text{cm}$.
+\end{itemize}
+
+\subsubsection{Criterios de aprobación}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{4.1cm}}
+\toprule
+\textbf{Métrica} & \textbf{Criterio de aprobación} \\
+\midrule
+Velocidad media en tramo plano & $\geq 2{,}0\ \text{m/s}$ \\
+Tiempo continuo de operación a velocidad objetivo & $\geq 30\ \text{s}$ \\
+Rotación sobre eje propio & $180^\circ$ en $\leq 2{,}0\ \text{s}$ \\
+Error final de orientación tras giro de $180^\circ$ & $\leq 5^\circ$ \\
+Superación de pendiente & $15^\circ$ sin detención ni vuelco \\
+Superación de obstáculo rectangular (5--7 cm alto, 10 cm ancho) & 3/3 intentos exitosos \\
+\bottomrule
+\end{tabular}
+\caption{Criterios de aprobación de la prueba de movilidad del prototipo.}
+\label{tab:criterios_prueba_movilidad}
+\end{table}
+
+\subsubsection{Procedimiento de ejecución}
+
+\begin{enumerate}
+    \item Preparar una pista de ensayo plana con longitud suficiente para sostener el régimen de velocidad durante 30 s.
+    \item Instrumentar medición de velocidad y trayectoria (odometría, registro temporal y referencia externa).
+    \item Ejecutar corrida en terreno plano y registrar velocidad instantánea y promedio.
+    \item Ejecutar maniobra de rotación sobre eje propio de $180^\circ$ y medir tiempo de maniobra.
+    \item Repetir la rotación al menos tres veces para verificar repetibilidad.
+    \item Ejecutar ascenso por rampa calibrada a $15^\circ$.
+    \item Ejecutar cruce de obstáculo rectangular (alto 5--7 cm, ancho 10 cm), con tres repeticiones.
+    \item Consolidar resultados y verificar cumplimiento de criterios.
+\end{enumerate}
+
+\subsubsection{Resultados}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{2.2cm} p{2.8cm}}
+\toprule
+\textbf{Métrica} & \textbf{Resultado} & \textbf{Cumple} \\
+\midrule
+Velocidad media en tramo plano [m/s] & --- & --- \\
+Tiempo sostenido a velocidad objetivo [s] & --- & --- \\
+Tiempo de giro 180$^\circ$ [s] & --- & --- \\
+Error final de orientación [deg] & --- & --- \\
+Superación de pendiente 15$^\circ$ [Sí/No] & --- & --- \\
+Éxitos en cruce de obstáculo [\#/\#] & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Resultados medidos de la prueba de movilidad del prototipo (a completar).}
+\label{tab:resultados_prueba_movilidad}
+\end{table}

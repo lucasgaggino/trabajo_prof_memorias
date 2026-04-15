@@ -61,13 +61,44 @@
 \contentsline {chapter}{\numberline {8}Pruebas y resultados}{39}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Pruebas en simulación}{39}{section.8.1}%
 \contentsline {subsection}{\numberline {8.1.1}Estructura de documentación de pruebas}{39}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Prueba 1: Navegación autónoma y mapeo con LiDAR simulado}{39}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.2}Navegación autónoma y mapeo con LiDAR simulado}{39}{subsection.8.1.2}%
 \contentsline {subsubsection}{Descripción de la prueba}{39}{section*.38}%
 \contentsline {paragraph}{Objetivos mínimos}{40}{section*.39}%
 \contentsline {subsubsection}{Criterios de aprobación}{40}{section*.40}%
 \contentsline {subsubsection}{Procedimiento de ejecución}{40}{section*.42}%
 \contentsline {subsubsection}{Resultados}{41}{section*.43}%
-\contentsline {chapter}{\numberline {9}Conclusiones}{43}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Conclusiones generales }{43}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Próximos Pasos}{43}{section.9.2}%
-\contentsline {chapter}{\numberline {A}Anexo A: Fuentes del análisis de mercado}{45}{appendix.Alph1}%
+\contentsline {section}{\numberline {8.2}Pruebas sobre prototipo físico}{41}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Movilidad y capacidad de superación de terreno del prototipo}{41}{subsection.8.2.1}%
+\contentsline {subsubsection}{Descripción de la prueba}{41}{section*.45}%
+\contentsline {paragraph}{Objetivos mínimos}{41}{section*.46}%
+\contentsline {subsubsection}{Criterios de aprobación}{42}{section*.47}%
+\contentsline {subsubsection}{Procedimiento de ejecución}{42}{section*.49}%
+\contentsline {subsubsection}{Resultados}{42}{section*.50}%
+\contentsline {subsection}{\numberline {8.2.2}Desempeño cinemático de la torreta (cañón) del prototipo}{43}{subsection.8.2.2}%
+\contentsline {subsubsection}{Descripción de la prueba}{43}{section*.52}%
+\contentsline {paragraph}{Objetivos mínimos}{43}{section*.53}%
+\contentsline {subsubsection}{Criterios de aprobación}{43}{section*.54}%
+\contentsline {subsubsection}{Procedimiento de ejecución}{43}{section*.56}%
+\contentsline {subsubsection}{Resultados}{44}{section*.57}%
+\contentsline {subsection}{\numberline {8.2.3}Detección y seguimiento de objetivo aéreo en prototipo físico}{44}{subsection.8.2.3}%
+\contentsline {subsubsection}{Descripción de la prueba}{44}{section*.59}%
+\contentsline {paragraph}{Objetivos mínimos}{44}{section*.60}%
+\contentsline {subsubsection}{Criterios de aprobación}{44}{section*.61}%
+\contentsline {subsubsection}{Procedimiento de ejecución}{44}{section*.63}%
+\contentsline {subsubsection}{Resultados}{45}{section*.64}%
+\contentsline {subsection}{\numberline {8.2.4}Capacidad de disparo sobre objetivo estacionario y en movimiento}{45}{subsection.8.2.4}%
+\contentsline {subsubsection}{Descripción de la prueba}{45}{section*.66}%
+\contentsline {paragraph}{Objetivos mínimos}{45}{section*.67}%
+\contentsline {subsubsection}{Criterios de aprobación}{45}{section*.68}%
+\contentsline {subsubsection}{Procedimiento de ejecución}{46}{section*.70}%
+\contentsline {subsubsection}{Resultados}{46}{section*.71}%
+\contentsline {subsection}{\numberline {8.2.5}Trackeo múltiple por color y neutralización de blancos tipo globo}{46}{subsection.8.2.5}%
+\contentsline {subsubsection}{Descripción de la prueba}{46}{section*.73}%
+\contentsline {paragraph}{Objetivos mínimos}{46}{section*.74}%
+\contentsline {subsubsection}{Criterios de aprobación}{47}{section*.75}%
+\contentsline {subsubsection}{Procedimiento de ejecución}{47}{section*.77}%
+\contentsline {subsubsection}{Resultados}{47}{section*.78}%
+\contentsline {chapter}{\numberline {9}Conclusiones}{49}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Conclusiones generales }{49}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Próximos Pasos}{49}{section.9.2}%
+\contentsline {chapter}{\numberline {A}Anexo A: Fuentes del análisis de mercado}{51}{appendix.Alph1}%

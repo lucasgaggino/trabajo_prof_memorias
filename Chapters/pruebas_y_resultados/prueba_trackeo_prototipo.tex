@@ -1,0 +1,65 @@
+\subsection{Detección y seguimiento de objetivo aéreo en prototipo físico}
+
+\subsubsection{Descripción de la prueba}
+
+Esta prueba evalúa la capacidad del sistema de visión y control de torreta para detectar y seguir un objetivo aéreo de dimensiones reducidas en condiciones de campo controladas. El objetivo de ensayo corresponde a un dron de dimensiones aproximadas de $45 \times 45 \times 10\ \text{cm}$.
+
+\paragraph{Objetivos mínimos}
+\begin{itemize}
+    \item Reconocer el dron objetivo a una distancia de $20\ \text{m}$.
+    \item Mantener seguimiento del objetivo a dicha distancia para velocidades relativas de hasta $20\ \text{m/s}$.
+    \item Verificar que la torreta mantiene continuidad de seguimiento sin pérdida prolongada del objetivo.
+\end{itemize}
+
+\subsubsection{Criterios de aprobación}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{4.1cm}}
+\toprule
+\textbf{Métrica} & \textbf{Criterio de aprobación} \\
+\midrule
+Distancia de detección efectiva del objetivo & $\geq 20\ \text{m}$ \\
+Tasa de detección del objetivo en pasadas de ensayo & $\geq 90\%$ \\
+Velocidad máxima de objetivo con seguimiento estable & $\geq 20\ \text{m/s}$ \\
+Tiempo acumulado con seguimiento válido durante cada pasada & $\geq 80\%$ del tiempo visible \\
+Error angular medio de seguimiento de torreta & $\leq 3^\circ$ \\
+Pérdida continua máxima de seguimiento por evento & $\leq 1{,}0\ \text{s}$ \\
+\bottomrule
+\end{tabular}
+\caption{Criterios de aprobación de la prueba de detección y seguimiento.}
+\label{tab:criterios_prueba_trackeo}
+\end{table}
+
+\subsubsection{Procedimiento de ejecución}
+
+\begin{enumerate}
+    \item Definir campo de ensayo con línea de referencia a $20\ \text{m}$ desde la posición del prototipo.
+    \item Configurar el sistema de visión y torreta en modo de seguimiento automático.
+    \item Ejecutar pasadas del objetivo (dron de prueba o blanco equivalente) a distintas velocidades hasta $20\ \text{m/s}$.
+    \item Registrar detección, adquisición, pérdida y recuperación de \textit{track} para cada pasada.
+    \item Medir error angular de la torreta respecto de la línea visual al objetivo.
+    \item Repetir ensayos para al menos diez pasadas válidas y consolidar métricas.
+\end{enumerate}
+
+\subsubsection{Resultados}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{2.2cm} p{2.8cm}}
+\toprule
+\textbf{Métrica} & \textbf{Resultado} & \textbf{Cumple} \\
+\midrule
+Distancia de detección efectiva [m] & --- & --- \\
+Tasa de detección en pasadas [\%] & --- & --- \\
+Velocidad máxima con seguimiento estable [m/s] & --- & --- \\
+Tiempo con \textit{track} válido [\%] & --- & --- \\
+Error angular medio de seguimiento [deg] & --- & --- \\
+Pérdida continua máxima de seguimiento [s] & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Resultados medidos de la prueba de detección y seguimiento (a completar).}
+\label{tab:resultados_prueba_trackeo}
+\end{table}

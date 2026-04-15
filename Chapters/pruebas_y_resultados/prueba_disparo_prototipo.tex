@@ -1,0 +1,63 @@
+\subsection{Capacidad de disparo sobre objetivo estacionario y en movimiento}
+
+\subsubsection{Descripción de la prueba}
+
+Esta prueba evalúa la capacidad del sistema para ejecutar disparos efectivos en dos condiciones de complejidad creciente: objetivo estacionario y objetivo en vuelo. Se busca verificar precisión, repetibilidad y tiempo de respuesta del conjunto visión--control--torreta--disparo.
+
+\paragraph{Objetivos mínimos}
+\begin{itemize}
+    \item Impactar objetivo tipo dron estacionario en condiciones controladas.
+    \item Impactar objetivo en movimiento con velocidad transversal representativa de operación.
+    \item Verificar estabilidad del desempeño en secuencias múltiples de disparo.
+\end{itemize}
+
+\subsubsection{Criterios de aprobación}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{4.1cm}}
+\toprule
+\textbf{Métrica} & \textbf{Criterio de aprobación} \\
+\midrule
+Tasa de impacto sobre objetivo estacionario (10 disparos) & $\geq 80\%$ \\
+Tasa de impacto sobre objetivo en movimiento (10 pasadas) & $\geq 60\%$ \\
+Tiempo de respuesta desde adquisición a primer disparo válido & $\leq 2{,}0\ \text{s}$ \\
+Desviación angular media del punto de impacto respecto del centro del blanco & $\leq 4^\circ$ \\
+Disparos fuera del sector de seguridad definido & 0 eventos \\
+\bottomrule
+\end{tabular}
+\caption{Criterios de aprobación de la prueba de disparo.}
+\label{tab:criterios_prueba_disparo}
+\end{table}
+
+\subsubsection{Procedimiento de ejecución}
+
+\begin{enumerate}
+    \item Delimitar campo de ensayo con sector de seguridad y zona de captura de impactos.
+    \item Configurar el prototipo en modo de seguimiento y disparo asistido.
+    \item Ejecutar una serie sobre objetivo estacionario y registrar impactos.
+    \item Ejecutar pasadas de objetivo en movimiento, con trayectoria transversal controlada, y registrar impactos.
+    \item Medir tiempos de adquisición y de disparo, junto con la desviación angular de impacto.
+    \item Consolidar métricas para comparar contra los criterios de aprobación.
+\end{enumerate}
+
+\subsubsection{Resultados}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{2.2cm} p{2.8cm}}
+\toprule
+\textbf{Métrica} & \textbf{Resultado} & \textbf{Cumple} \\
+\midrule
+Tasa de impacto objetivo estacionario [\%] & --- & --- \\
+Tasa de impacto objetivo en movimiento [\%] & --- & --- \\
+Tiempo de respuesta adquisición-disparo [s] & --- & --- \\
+Desviación angular media de impacto [deg] & --- & --- \\
+Eventos fuera de sector de seguridad [\#] & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Resultados medidos de la prueba de disparo (a completar).}
+\label{tab:resultados_prueba_disparo}
+\end{table}

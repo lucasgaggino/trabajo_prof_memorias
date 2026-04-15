@@ -1,0 +1,66 @@
+\subsection{Desempeño cinemático de la torreta (cañón) del prototipo}
+
+\subsubsection{Descripción de la prueba}
+
+Esta prueba valida la capacidad de movimiento angular de la torreta en sus dos ejes de control (\textit{pitch} y \textit{yaw}), de acuerdo con los requerimientos de seguimiento y apuntamiento del sistema.
+
+\paragraph{Objetivos mínimos}
+\begin{itemize}
+    \item Alcanzar una velocidad angular en \textit{pitch} de $15\ \text{deg/s}$ sobre una apertura de $30^\circ$.
+    \item Alcanzar una velocidad angular en \textit{yaw} de $40\ \text{deg/s}$ sobre un recorrido de $180^\circ$.
+    \item Lograr en \textit{pitch} un ángulo máximo de elevación de $50^\circ$ respecto de la horizontal.
+\end{itemize}
+
+\subsubsection{Criterios de aprobación}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{4.1cm}}
+\toprule
+\textbf{Métrica} & \textbf{Criterio de aprobación} \\
+\midrule
+Velocidad angular media en \textit{pitch} & $\geq 15\ \text{deg/s}$ \\
+Apertura útil en \textit{pitch} & $\geq 30^\circ$ \\
+Velocidad angular media en \textit{yaw} & $\geq 40\ \text{deg/s}$ \\
+Recorrido útil en \textit{yaw} & $\geq 180^\circ$ \\
+Ángulo máximo de elevación en \textit{pitch} & $\geq 50^\circ$ \\
+Error de posicionamiento angular final (ambos ejes) & $\leq 2^\circ$ \\
+\bottomrule
+\end{tabular}
+\caption{Criterios de aprobación de la prueba cinemática de torreta.}
+\label{tab:criterios_prueba_canon}
+\end{table}
+
+\subsubsection{Procedimiento de ejecución}
+
+\begin{enumerate}
+    \item Fijar el prototipo en banco de ensayo para desacoplar efectos de tracción.
+    \item Calibrar cero mecánico y horizontal de referencia para ambos ejes.
+    \item Ejecutar barridos de \textit{pitch} sobre al menos $30^\circ$ y medir tiempo total de maniobra.
+    \item Ejecutar barridos de \textit{yaw} sobre al menos $180^\circ$ y medir tiempo total de maniobra.
+    \item Repetir cada barrido tres veces para estimar repetibilidad.
+    \item Medir ángulo máximo de elevación alcanzable en \textit{pitch}.
+    \item Calcular velocidad angular media y error de posicionamiento al final de cada maniobra.
+\end{enumerate}
+
+\subsubsection{Resultados}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{2.2cm} p{2.8cm}}
+\toprule
+\textbf{Métrica} & \textbf{Resultado} & \textbf{Cumple} \\
+\midrule
+Velocidad angular media en \textit{pitch} [deg/s] & --- & --- \\
+Apertura útil en \textit{pitch} [deg] & --- & --- \\
+Velocidad angular media en \textit{yaw} [deg/s] & --- & --- \\
+Recorrido útil en \textit{yaw} [deg] & --- & --- \\
+Ángulo máximo de elevación en \textit{pitch} [deg] & --- & --- \\
+Error angular final [deg] & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Resultados medidos de la prueba cinemática de torreta (a completar).}
+\label{tab:resultados_prueba_canon}
+\end{table}

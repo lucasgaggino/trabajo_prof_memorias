@@ -1,0 +1,70 @@
+\subsection{Trackeo múltiple por color y neutralización de blancos tipo globo}
+
+\subsubsection{Descripción de la prueba}
+
+Esta prueba valida el modo de seguimiento por color con múltiples objetivos simultáneos. El sistema debe detectar, priorizar, apuntar y neutralizar tres globos (estacionarios y móviles) ubicados a distancias de 10 m y 15 m. La prueba está orientada a verificar robustez de segmentación, gestión de prioridades y continuidad operativa bajo carga visual.
+
+\paragraph{Objetivos mínimos}
+\begin{itemize}
+    \item Detectar y mantener \textit{track} de tres objetivos simultáneos por color.
+    \item Resolver secuencia de apuntamiento y disparo en blancos estacionarios y móviles.
+    \item Neutralizar blancos a 10 m y 15 m sin pérdida de control del sistema.
+\end{itemize}
+
+\subsubsection{Criterios de aprobación}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{4.1cm}}
+\toprule
+\textbf{Métrica} & \textbf{Criterio de aprobación} \\
+\midrule
+Cantidad de blancos detectados simultáneamente & 3/3 \\
+Tiempo de adquisición inicial de los tres blancos & $\leq 3{,}0\ \text{s}$ \\
+Tiempo total de neutralización de los tres blancos (escenario 10 m) & $\leq 20\ \text{s}$ \\
+Tiempo total de neutralización de los tres blancos (escenario 15 m) & $\leq 30\ \text{s}$ \\
+Tasa de neutralización de blancos estacionarios & $\geq 90\%$ \\
+Tasa de neutralización de blancos móviles & $\geq 70\%$ \\
+Pérdida continua máxima de track por objetivo & $\leq 1{,}0\ \text{s}$ \\
+Eventos de disparo fuera de objetivo o fuera de secuencia segura & 0 eventos \\
+\bottomrule
+\end{tabular}
+\caption{Criterios de aprobación de la prueba de trackeo múltiple y disparo.}
+\label{tab:criterios_prueba_trackeo_multiple}
+\end{table}
+
+\subsubsection{Procedimiento de ejecución}
+
+\begin{enumerate}
+    \item Definir dos escenarios de ensayo: blancos a 10 m y blancos a 15 m.
+    \item Preparar tres globos simultáneos con color objetivo calibrado para el modo de tracking.
+    \item Ejecutar escenario con combinación de blancos estacionarios y móviles.
+    \item Activar registro de detección, asignación de prioridad, tiempo de apuntamiento y disparo.
+    \item Medir tiempos de adquisición inicial y neutralización total por escenario.
+    \item Registrar pérdidas de track y eventos de disparo fuera de objetivo.
+    \item Repetir cada escenario al menos tres veces para evaluar repetibilidad.
+\end{enumerate}
+
+\subsubsection{Resultados}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{2.2cm} p{2.8cm}}
+\toprule
+\textbf{Métrica} & \textbf{Resultado} & \textbf{Cumple} \\
+\midrule
+Blancos detectados simultáneamente [\#/\#] & --- & --- \\
+Tiempo de adquisición inicial [s] & --- & --- \\
+Tiempo de neutralización total a 10 m [s] & --- & --- \\
+Tiempo de neutralización total a 15 m [s] & --- & --- \\
+Tasa de neutralización de blancos estacionarios [\%] & --- & --- \\
+Tasa de neutralización de blancos móviles [\%] & --- & --- \\
+Pérdida continua máxima de track [s] & --- & --- \\
+Eventos fuera de objetivo o de secuencia segura [\#] & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Resultados medidos de la prueba de trackeo múltiple y disparo (a completar).}
+\label{tab:resultados_prueba_trackeo_multiple}
+\end{table}
