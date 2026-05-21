@@ -21,5 +21,11 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Captura del entorno de simulación en Unreal Engine 5.}}{38}{figure.caption.37}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Comparación entre mapa de referencia del escenario y mapa de ocupación 2D generado por el módulo SLAM (celda de $0{,}15\ \text {m}$).}}{41}{figure.caption.45}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Evolución del índice IoU durante el barrido del entorno.}}{41}{figure.caption.46}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Trayectoria planificada y trayectoria ejecutada en el escenario de misión.}}{43}{figure.caption.54}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Error lateral respecto del camino planificado en función de la distancia recorrida.}}{44}{figure.caption.55}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Trayectoria de referencia y trayectoria estimada bajo ruido de medición global.}}{46}{figure.caption.63}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Error de posicionamiento global en función del tiempo de misión.}}{46}{figure.caption.64}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

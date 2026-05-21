@@ -1,0 +1,29 @@
+{
+  "source_csv": "navigator_path.csv",
+  "distance_m": 125.0,
+  "duration_s": 307.17,
+  "duration_mmss": "5:07",
+  "collisions": 0,
+  "lateral_mean_m": 0.037,
+  "lateral_max_corridor_m": 0.228,
+  "replanifications": 2,
+  "curvature_variance": 0.0388,
+  "verdicts": {
+    "distance_m": "Sí",
+    "time_s": "Sí",
+    "collisions": "Sí",
+    "lateral_mean_m": "Sí",
+    "lateral_max_m": "Sí",
+    "replanifications": "Sí",
+    "curvature_var": "Sí"
+  },
+  "thresholds": {
+    "distance_m": 120.0,
+    "time_s": 600.0,
+    "collisions": 0,
+    "lateral_mean_m": 0.15,
+    "lateral_max_m": 0.3,
+    "replanifications": 3,
+    "curvature_var": 0.1
+  }
+}

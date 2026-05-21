@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.14)  15 APR 2026 17:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.1.14)  20 MAY 2026 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1066,7 +1066,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 
 pdfTeX warning: pdflatex.exe (file ./Figures/fondo.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<Figures/fondo.pdf, id=391, 597.55246pt x 845.07718pt>
+<Figures/fondo.pdf, id=451, 597.55246pt x 845.07718pt>
 File: Figures/fondo.pdf Graphic file (type pdf)
 <use Figures/fondo.pdf>
 Package pdftex.def Info: Figures/fondo.pdf  used on input line 55.
@@ -1170,7 +1170,7 @@ LaTeX Info: Redefining \% on input line 123.
 (Chapters/introduccion_teorica.tex
 Cap\'{\i }tulo 3.
 (Chapters/introduccion_teorica/introduccion_teorica.tex
-<./Figures/deteccion_ejemplo.png, id=642, 837.1275pt x 604.50844pt>
+<./Figures/deteccion_ejemplo.png, id=748, 837.1275pt x 604.50844pt>
 File: ./Figures/deteccion_ejemplo.png Graphic file (type png)
 <use ./Figures/deteccion_ejemplo.png>
 Package pdftex.def Info: ./Figures/deteccion_ejemplo.png  used on input line 11
@@ -1182,7 +1182,7 @@ Package pdftex.def Info: ./Figures/deteccion_ejemplo.png  used on input line 11
 
 
 ]
-<./Figures/mapeo_lidar_slam.png, id=649, 751.30687pt x 660.21657pt>
+<./Figures/mapeo_lidar_slam.png, id=755, 751.30687pt x 660.21657pt>
 File: ./Figures/mapeo_lidar_slam.png Graphic file (type png)
 <use ./Figures/mapeo_lidar_slam.png>
 Package pdftex.def Info: ./Figures/mapeo_lidar_slam.png  used on input line 29.
@@ -1194,7 +1194,7 @@ LaTeX Info: Redefining \% on input line 35.
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
  [9 <./Figures/mapeo_lidar_slam.png>]
-<./Figures/path_planning_astar.png, id=663, 462.528pt x 346.896pt>
+<./Figures/path_planning_astar.png, id=767, 462.528pt x 346.896pt>
 File: ./Figures/path_planning_astar.png Graphic file (type png)
 <use ./Figures/path_planning_astar.png>
 Package pdftex.def Info: ./Figures/path_planning_astar.png  used on input line 
@@ -1258,7 +1258,7 @@ LaTeX Info: Redefining \% on input line 126.
 ]
 Cap\'{\i }tulo 6.
 (Chapters/prototipo/componentes.tex
-<Figures/rueda.png, id=719, 373.395pt x 365.86688pt>
+<Figures/rueda.png, id=821, 373.395pt x 365.86688pt>
 File: Figures/rueda.png Graphic file (type png)
 <use Figures/rueda.png>
 Package pdftex.def Info: Figures/rueda.png  used on input line 19.
@@ -1267,7 +1267,7 @@ Package pdftex.def Info: Figures/rueda.png  used on input line 19.
 LaTeX Info: Redefining \. on input line 49.
 LaTeX Info: Redefining \% on input line 49.
  [20 <./Figures/rueda.png>]
-<Figures/arduino.jpg, id=731, 1927.2pt x 1145.78062pt>
+<Figures/arduino.jpg, id=833, 1927.2pt x 1145.78062pt>
 File: Figures/arduino.jpg Graphic file (type jpg)
 <use Figures/arduino.jpg>
 Package pdftex.def Info: Figures/arduino.jpg  used on input line 69.
@@ -1277,7 +1277,7 @@ Package pdftex.def Info: Figures/arduino.jpg  used on input line 69.
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
  [21 <./Figures/arduino.jpg>]
-<Figures/eje_corte.png, id=736, 867.24pt x 557.08125pt>
+<Figures/eje_corte.png, id=838, 867.24pt x 557.08125pt>
 File: Figures/eje_corte.png Graphic file (type png)
 <use Figures/eje_corte.png>
 Package pdftex.def Info: Figures/eje_corte.png  used on input line 38.
@@ -1285,7 +1285,7 @@ Package pdftex.def Info: Figures/eje_corte.png  used on input line 38.
 LaTeX Info: Redefining \. on input line 42.
 LaTeX Info: Redefining \% on input line 42.
  [22]
-<Figures/larguero.png, id=741, 875.52094pt x 499.8675pt>
+<Figures/larguero.png, id=843, 875.52094pt x 499.8675pt>
 File: Figures/larguero.png Graphic file (type png)
 <use Figures/larguero.png>
 Package pdftex.def Info: Figures/larguero.png  used on input line 53.
@@ -1293,7 +1293,7 @@ Package pdftex.def Info: Figures/larguero.png  used on input line 53.
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
  [23 <./Figures/eje_corte.png>]
-<Figures/base_sola.png, id=747, 797.22844pt x 514.92375pt>
+<Figures/base_sola.png, id=849, 797.22844pt x 514.92375pt>
 File: Figures/base_sola.png Graphic file (type png)
 <use Figures/base_sola.png>
 Package pdftex.def Info: Figures/base_sola.png  used on input line 64.
@@ -1301,12 +1301,12 @@ Package pdftex.def Info: Figures/base_sola.png  used on input line 64.
 LaTeX Info: Redefining \. on input line 72.
 LaTeX Info: Redefining \% on input line 72.
  [24 <./Figures/larguero.png> <./Figures/base_sola.png>]
-<Figures/coraza sola.png, id=754, 818.30719pt x 411.03563pt>
+<Figures/coraza sola.png, id=856, 818.30719pt x 411.03563pt>
 File: Figures/coraza sola.png Graphic file (type png)
 <use Figures/coraza sola.png>
 Package pdftex.def Info: Figures/coraza sola.png  used on input line 77.
 (pdftex.def)             Requested size: 389.80269pt x 195.80214pt.
-<Figures/corte robot.png, id=755, 715.17188pt x 451.6875pt>
+<Figures/corte robot.png, id=857, 715.17188pt x 451.6875pt>
 File: Figures/corte robot.png Graphic file (type png)
 <use Figures/corte robot.png>
 Package pdftex.def Info: Figures/corte robot.png  used on input line 90.
@@ -1315,7 +1315,7 @@ LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
 
 [25 <./Figures/coraza sola.png>]
-<Figures/robot_completo.png, id=762, 841.64438pt x 609.02531pt>
+<Figures/robot_completo.png, id=864, 841.64438pt x 609.02531pt>
 File: Figures/robot_completo.png Graphic file (type png)
 <use Figures/robot_completo.png>
 Package pdftex.def Info: Figures/robot_completo.png  used on input line 101.
@@ -1337,7 +1337,7 @@ LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
 
 [28]
-<Figures/maquina_de_estados.png, id=779, 2127.95pt x 420.57124pt>
+<Figures/maquina_de_estados.png, id=881, 2127.95pt x 420.57124pt>
 File: Figures/maquina_de_estados.png Graphic file (type png)
 <use Figures/maquina_de_estados.png>
 Package pdftex.def Info: Figures/maquina_de_estados.png  used on input line 60.
@@ -1370,7 +1370,7 @@ LaTeX Info: Redefining \% on input line 138.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [32]
-<Figures/protocolo.png, id=834, 1106.63437pt x 254.45062pt>
+<Figures/protocolo.png, id=936, 1106.63437pt x 254.45062pt>
 File: Figures/protocolo.png Graphic file (type png)
 <use Figures/protocolo.png>
 Package pdftex.def Info: Figures/protocolo.png  used on input line 30.
@@ -1405,7 +1405,7 @@ je de fun-cio-na-li-da-des avan-
  []
 
 [37]
-<Figures/UE5.png, id=862, 709.90219pt x 502.12593pt>
+<Figures/UE5.png, id=964, 709.90219pt x 502.12593pt>
 File: Figures/UE5.png Graphic file (type png)
 <use Figures/UE5.png>
 Package pdftex.def Info: Figures/UE5.png  used on input line 19.
@@ -1419,40 +1419,127 @@ LaTeX Info: Redefining \% on input line 128.
  (Chapters/pruebas_y_resultados.tex
 Cap\'{\i }tulo 8.
 (Chapters/pruebas_y_resultados/resultados_virtual.tex
-(Chapters/pruebas_y_resultados/prueba_navegacion_virtual.tex [39
+(Chapters/pruebas_y_resultados/prueba_slam_virtual.tex [39
 
 
 
 
 ]
-Overfull \hbox (1.23811pt too wide) in paragraph at lines 28--43
+Overfull \hbox (1.23811pt too wide) in paragraph at lines 20--31
  [][] 
  []
 
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
+
+Overfull \hbox (38.84541pt too wide) in paragraph at lines 52--63
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
 [40]
-Overfull \hbox (38.84541pt too wide) in paragraph at lines 67--82
+<Figures/prueba_slam_mapas.png, id=988, 867.24pt x 361.35pt>
+File: Figures/prueba_slam_mapas.png Graphic file (type png)
+<use Figures/prueba_slam_mapas.png>
+Package pdftex.def Info: Figures/prueba_slam_mapas.png  used on input line 71.
+(pdftex.def)             Requested size: 370.31136pt x 154.29677pt.
+<Figures/prueba_slam_convergencia_iou.png, id=989, 578.16pt x 289.08pt>
+File: Figures/prueba_slam_convergencia_iou.png Graphic file (type png)
+<use Figures/prueba_slam_convergencia_iou.png>
+Package pdftex.def Info: Figures/prueba_slam_convergencia_iou.png  used on inpu
+t line 78.
+(pdftex.def)             Requested size: 350.82004pt x 175.4078pt.
+) (Chapters/pruebas_y_resultados/prueba_path_planning_virtual.tex
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+ [41 <./Figures/prueba_slam_mapas.png> <./Figures/prueba_slam_convergencia_iou.
+png>]
+Overfull \hbox (1.23811pt too wide) in paragraph at lines 24--37
  [][] 
  []
 
-) (Chapters/pruebas_y_resultados/prueba_movilidad_prototipo.tex
-LaTeX Info: Redefining \. on input line 11.
-LaTeX Info: Redefining \% on input line 11.
- [41]
+
+Overfull \hbox (38.84541pt too wide) in paragraph at lines 59--72
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+[42]
+<Figures/prueba_path_trayectorias.png, id=1013, 650.43pt x 505.89pt>
+File: Figures/prueba_path_trayectorias.png Graphic file (type png)
+<use Figures/prueba_path_trayectorias.png>
+Package pdftex.def Info: Figures/prueba_path_trayectorias.png  used on input li
+ne 80.
+(pdftex.def)             Requested size: 350.82004pt x 272.86775pt.
+<Figures/prueba_path_error_lateral.png, id=1014, 650.43pt x 289.08pt>
+File: Figures/prueba_path_error_lateral.png Graphic file (type png)
+<use Figures/prueba_path_error_lateral.png>
+Package pdftex.def Info: Figures/prueba_path_error_lateral.png  used on input l
+ine 87.
+(pdftex.def)             Requested size: 350.82004pt x 155.92442pt.
+) (Chapters/pruebas_y_resultados/prueba_localizacion_virtual.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [43 <./Figures/prueba_path_trayectorias.png>]
+Overfull \hbox (1.23811pt too wide) in paragraph at lines 19--31
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+[44 <./Figures/prueba_path_error_lateral.png>]
+Overfull \hbox (38.84541pt too wide) in paragraph at lines 52--64
+ [][] 
+ []
+
+<Figures/prueba_localizacion_trayectorias.png, id=1030, 650.43pt x 505.89pt>
+File: Figures/prueba_localizacion_trayectorias.png Graphic file (type png)
+<use Figures/prueba_localizacion_trayectorias.png>
+Package pdftex.def Info: Figures/prueba_localizacion_trayectorias.png  used on 
+input line 74.
+(pdftex.def)             Requested size: 350.82004pt x 272.86775pt.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
+[45]
+<Figures/prueba_localizacion_error.png, id=1042, 650.43pt x 289.08pt>
+File: Figures/prueba_localizacion_error.png Graphic file (type png)
+<use Figures/prueba_localizacion_error.png>
+Package pdftex.def Info: Figures/prueba_localizacion_error.png  used on input l
+ine 81.
+(pdftex.def)             Requested size: 350.82004pt x 155.92442pt.
+) (Chapters/pruebas_y_resultados/prueba_fsm_evento_dinamico_virtual.tex
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+
+[46 <./Figures/prueba_localizacion_trayectorias.png> <./Figures/prueba_localiza
+cion_error.png>]
 Overfull \hbox (1.23811pt too wide) in paragraph at lines 20--32
  [][] 
  []
 
+LaTeX Info: Redefining \. on input line 47.
+LaTeX Info: Redefining \% on input line 47.
+[47]
+Overfull \hbox (38.84541pt too wide) in paragraph at lines 54--66
+ [][] 
+ []
 
+) (Chapters/pruebas_y_resultados/prueba_movilidad_prototipo.tex
+Overfull \hbox (1.23811pt too wide) in paragraph at lines 20--32
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+[48]
 Overfull \hbox (38.84541pt too wide) in paragraph at lines 54--66
  [][] 
  []
 
 ) (Chapters/pruebas_y_resultados/prueba_canon_prototipo.tex
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
- [42]
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+ [49]
 Overfull \hbox (1.23811pt too wide) in paragraph at lines 19--31
  [][] 
  []
@@ -1465,14 +1552,14 @@ Overfull \hbox (38.84541pt too wide) in paragraph at lines 52--64
 ) (Chapters/pruebas_y_resultados/prueba_trackeo_prototipo.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [43]
+ [50]
 Overfull \hbox (1.23811pt too wide) in paragraph at lines 19--31
  [][] 
  []
 
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
-[44]
+[51]
 Overfull \hbox (38.84541pt too wide) in paragraph at lines 51--63
  [][] 
  []
@@ -1490,7 +1577,7 @@ Overfull \hbox (1.23811pt too wide) in paragraph at lines 19--30
 
 LaTeX Info: Redefining \. on input line 38.
 LaTeX Info: Redefining \% on input line 38.
-[45]
+[52]
 Overfull \hbox (38.84541pt too wide) in paragraph at lines 50--61
  [][] 
  []
@@ -1502,7 +1589,7 @@ Overfull \hbox (1.23811pt too wide) in paragraph at lines 19--33
 
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
-[46]
+[53]
 Overfull \hbox (38.84541pt too wide) in paragraph at lines 54--68
  [][] 
  []
@@ -1510,29 +1597,29 @@ Overfull \hbox (38.84541pt too wide) in paragraph at lines 54--68
 )))
 LaTeX Info: Redefining \. on input line 129.
 LaTeX Info: Redefining \% on input line 129.
- [47]
+ [54]
 \openout2 = `Chapters/conclusiones.aux'.
 
- (Chapters/conclusiones.tex [48
+ (Chapters/conclusiones.tex
+Cap\'{\i }tulo 9.
+(Chapters/conclusiones/conclusiones_generales.tex)
+(Chapters/conclusiones/proximos_pasos.tex)) [55
 
 
 
 
 ]
-Cap\'{\i }tulo 9.
-(Chapters/conclusiones/conclusiones_generales.tex)
-(Chapters/conclusiones/proximos_pasos.tex)) [49]
 \openout2 = `Appendices/AppendixA.aux'.
 
  (Appendices/AppendixA.tex
-[50
+[56
 
 
 
 
 ]
 Ap\'{e}ndice A.
-) [51]
+) [57]
 
 LaTeX Warning: Empty bibliography on input line 155.
 
@@ -1558,39 +1645,40 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `memorianueva.out' has not changed.
-(rerunfilecheck)             Checksum: 5B27B3062F3E8D0A473394338734AE57;17834.
+(rerunfilecheck)             Checksum: 8D80FB8DBA1F0170A07A0CEC9303C694;20881.
 Package logreq Info: Writing requests to 'memorianueva.run.xml'.
 \openout1 = `memorianueva.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33063 strings out of 474486
- 715622 string characters out of 5743755
- 1960542 words of memory out of 5000000
- 54525 multiletter control sequences out of 15000+600000
- 623960 words of font info for 118 fonts, out of 8000000 for 9000
+ 33218 strings out of 474486
+ 720265 string characters out of 5743755
+ 1962542 words of memory out of 5000000
+ 54613 multiletter control sequences out of 15000+600000
+ 624581 words of font info for 120 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  96i,21n,96p,1971b,2950s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi8.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lucas/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/lucas/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lucas/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/lucas/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/lucas
-/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/lu
-cas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/User
-s/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/U
-sers/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C
-:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb
-><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a
-.pfb>
-Output written on memorianueva.pdf (63 pages, 4254179 bytes).
+type1/public/amsfonts/cm/cmr7.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lucas/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lucas/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/lucas/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/luc
+as/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/l
+ucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/User
+s/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/U
+sers/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><
+C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pf
+b><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a
+.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/upl
+r8a.pfb><C:/Users/lucas/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/
+uplri8a.pfb>
+Output written on memorianueva.pdf (69 pages, 4907038 bytes).
 PDF statistics:
- 1110 PDF objects out of 1200 (max. 8388607)
- 289 named destinations out of 1000 (max. 500000)
- 852 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1295 PDF objects out of 1440 (max. 8388607)
+ 346 named destinations out of 1000 (max. 500000)
+ 1002 words of extra memory for PDF output out of 10000 (max. 10000000)
 

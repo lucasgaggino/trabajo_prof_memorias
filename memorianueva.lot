@@ -9,17 +9,23 @@
 \contentsline {table}{\numberline {6.1}{\ignorespaces Mensajes, códigos y uso del payload}}{34}{table.caption.33}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Criterios de aprobación de la prueba de navegación y mapeo en simulación.}}{40}{table.caption.41}%
-\contentsline {table}{\numberline {8.2}{\ignorespaces Resultados medidos de la prueba de navegación y mapeo en simulación (a completar).}}{41}{table.caption.44}%
-\contentsline {table}{\numberline {8.3}{\ignorespaces Criterios de aprobación de la prueba de movilidad del prototipo.}}{42}{table.caption.48}%
-\contentsline {table}{\numberline {8.4}{\ignorespaces Resultados medidos de la prueba de movilidad del prototipo (a completar).}}{42}{table.caption.51}%
-\contentsline {table}{\numberline {8.5}{\ignorespaces Criterios de aprobación de la prueba cinemática de torreta.}}{43}{table.caption.55}%
-\contentsline {table}{\numberline {8.6}{\ignorespaces Resultados medidos de la prueba cinemática de torreta (a completar).}}{44}{table.caption.58}%
-\contentsline {table}{\numberline {8.7}{\ignorespaces Criterios de aprobación de la prueba de detección y seguimiento.}}{44}{table.caption.62}%
-\contentsline {table}{\numberline {8.8}{\ignorespaces Resultados medidos de la prueba de detección y seguimiento (a completar).}}{45}{table.caption.65}%
-\contentsline {table}{\numberline {8.9}{\ignorespaces Criterios de aprobación de la prueba de disparo.}}{45}{table.caption.69}%
-\contentsline {table}{\numberline {8.10}{\ignorespaces Resultados medidos de la prueba de disparo (a completar).}}{46}{table.caption.72}%
-\contentsline {table}{\numberline {8.11}{\ignorespaces Criterios de aprobación de la prueba de trackeo múltiple y disparo.}}{47}{table.caption.76}%
-\contentsline {table}{\numberline {8.12}{\ignorespaces Resultados medidos de la prueba de trackeo múltiple y disparo (a completar).}}{47}{table.caption.79}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Criterios de aprobación de la prueba de mapeo con LiDAR simulado.}}{40}{table.caption.41}%
+\contentsline {table}{\numberline {8.2}{\ignorespaces Resultados medidos de la prueba de mapeo con LiDAR simulado.}}{40}{table.caption.44}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Criterios de aprobación de la prueba de planificación y seguimiento de trayectoria.}}{42}{table.caption.50}%
+\contentsline {table}{\numberline {8.4}{\ignorespaces Resultados medidos de la prueba de planificación y seguimiento de trayectoria.}}{43}{table.caption.53}%
+\contentsline {table}{\numberline {8.5}{\ignorespaces Criterios de aprobación de la prueba de localización global bajo ruido de medición.}}{44}{table.caption.59}%
+\contentsline {table}{\numberline {8.6}{\ignorespaces Resultados medidos de la prueba de localización global bajo ruido de medición.}}{45}{table.caption.62}%
+\contentsline {table}{\numberline {8.7}{\ignorespaces Criterios de aprobación de la prueba de conmutación FSM ante evento dinámico.}}{47}{table.caption.68}%
+\contentsline {table}{\numberline {8.8}{\ignorespaces Resultados medidos de la prueba de conmutación FSM ante evento dinámico.}}{48}{table.caption.71}%
+\contentsline {table}{\numberline {8.9}{\ignorespaces Criterios de aprobación de la prueba de movilidad del prototipo.}}{49}{table.caption.75}%
+\contentsline {table}{\numberline {8.10}{\ignorespaces Resultados medidos de la prueba de movilidad del prototipo.}}{49}{table.caption.78}%
+\contentsline {table}{\numberline {8.11}{\ignorespaces Criterios de aprobación de la prueba cinemática de torreta.}}{50}{table.caption.82}%
+\contentsline {table}{\numberline {8.12}{\ignorespaces Resultados medidos de la prueba cinemática de torreta.}}{51}{table.caption.85}%
+\contentsline {table}{\numberline {8.13}{\ignorespaces Criterios de aprobación de la prueba de detección y seguimiento.}}{51}{table.caption.89}%
+\contentsline {table}{\numberline {8.14}{\ignorespaces Resultados medidos de la prueba de detección y seguimiento.}}{52}{table.caption.92}%
+\contentsline {table}{\numberline {8.15}{\ignorespaces Criterios de aprobación de la prueba de disparo.}}{52}{table.caption.96}%
+\contentsline {table}{\numberline {8.16}{\ignorespaces Resultados medidos de la prueba de disparo.}}{53}{table.caption.99}%
+\contentsline {table}{\numberline {8.17}{\ignorespaces Criterios de aprobación de la prueba de trackeo múltiple y disparo.}}{54}{table.caption.103}%
+\contentsline {table}{\numberline {8.18}{\ignorespaces Resultados medidos de la prueba de trackeo múltiple y disparo.}}{54}{table.caption.106}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

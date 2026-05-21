@@ -1,0 +1,68 @@
+\subsection{Conmutación de estado FSM ante evento dinámico}
+
+\subsubsection{Descripción de la prueba}
+
+Esta prueba valida el comportamiento del autómata de estados finitos (FSM) del sistema ante la irrupción de un objetivo dinámico durante una misión de navegación activa. El robot navega en estado \texttt{NAVIGATING} y un objetivo cruza su trayectoria; el sistema debe transitar a \texttt{TRACKING}, detener el avance y, al finalizar el evento, retomar \texttt{NAVIGATING} desde el punto de interrupción con orientación correcta. Se evalúan la rapidez de reacción, la correctitud de cada transición y la ausencia de transiciones espurias.
+
+\paragraph{Objetivos mínimos}
+\begin{itemize}
+    \item Verificar la transición \texttt{NAVIGATING} $\to$ \texttt{TRACKING} dentro del tiempo admisible tras detección del objetivo.
+    \item Verificar la transición \texttt{TRACKING} $\to$ \texttt{NAVIGATING} al finalizar el evento dinámico.
+    \item Comprobar que no se producen transiciones espurias en ausencia de evento.
+    \item Evaluar la calidad de la reanudación de misión en términos de orientación y distancia al waypoint.
+\end{itemize}
+
+\subsubsection{Criterios de aprobación}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{4.1cm}}
+\toprule
+\textbf{Métrica} & \textbf{Criterio de aprobación} \\
+\midrule
+Tiempo de reacción ante cruce de objetivo (detección a detención) & $\leq 1{,}5\ \text{s}$ \\
+Avance residual luego de detectar objetivo en cruce & $\leq 0{,}50\ \text{m}$ \\
+Tiempo hasta retomar estado \texttt{NAVIGATING} tras finalizar evento & $\leq 3{,}0\ \text{s}$ \\
+Distancia al waypoint de reanudación respecto al punto de detención & $\leq 1{,}0\ \text{m}$ \\
+Error de orientación al retomar marcha respecto al \textit{heading} previo & $\leq 5^\circ$ \\
+Transiciones de estado espurias (en ausencia de evento real) & 0 eventos \\
+\bottomrule
+\end{tabular}
+\caption{Criterios de aprobación de la prueba de conmutación FSM ante evento dinámico.}
+\label{tab:criterios_prueba_fsm}
+\end{table}
+
+\subsubsection{Procedimiento de ejecución}
+
+\begin{enumerate}
+    \item Configurar escenario virtual con trayectoria de navegación definida y punto de cruce de objetivo señalado.
+    \item Inicializar el robot en estado \texttt{NAVIGATING} con localización exacta y mapeo estático precargado.
+    \item Registrar el historial de estados del FSM, tiempos de transición y posición del robot a $\geq 20\ \text{Hz}$.
+    \item Forzar el cruce transversal de un objetivo en la trayectoria del robot en el punto señalado.
+    \item Registrar el instante de detección, el instante de detención y el avance residual entre ambos.
+    \item Al retirar el objetivo del campo visual, registrar el instante de transición a \texttt{NAVIGATING}.
+    \item Medir la distancia entre la posición de detención y el waypoint de reanudación, y el error de orientación al retomar marcha.
+    \item Repetir el ensayo cinco veces para evaluar repetibilidad; en al menos dos corridas adicionales sin evento para verificar ausencia de transiciones espurias.
+\end{enumerate}
+
+\subsubsection{Resultados}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{p{8.8cm} p{2.2cm} p{2.8cm}}
+\toprule
+\textbf{Métrica} & \textbf{Resultado} & \textbf{Cumple} \\
+\midrule
+Tiempo de reacción detección--detención [s] & --- & --- \\
+Avance residual post-detección [m] & --- & --- \\
+Tiempo hasta retomar \texttt{NAVIGATING} [s] & --- & --- \\
+Distancia al waypoint de reanudación [m] & --- & --- \\
+Error de orientación al retomar marcha [deg] & --- & --- \\
+Transiciones espurias [\#] & --- & --- \\
+\bottomrule
+\end{tabular}
+\caption{Resultados medidos de la prueba de conmutación FSM ante evento dinámico.}
+\label{tab:resultados_prueba_fsm}
+\end{table}

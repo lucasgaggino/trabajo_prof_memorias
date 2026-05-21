@@ -1,0 +1,36 @@
+{
+  "source_map": "D:\\FIUBA\\PROTECTOR\\tactical_module\\maps\\MissionA\\occupancy_map.npy",
+  "cell_size_m": 0.15,
+  "downsample_factor": 4,
+  "grid_shape_cells": [
+    331,
+    117
+  ],
+  "grid_extent_m": [
+    49.65,
+    17.55
+  ],
+  "false_positive_rate_param": 0.04,
+  "false_negative_rate_param": 0.18,
+  "salt_pepper_rate": 0.008,
+  "iou": 0.81,
+  "coverage_pct": 95.34,
+  "false_positive_pct": 4.66,
+  "convergence_time_s": 192.0,
+  "convergence_time_mmss": "3:12",
+  "entropy_bits_per_cell": 0.0808,
+  "verdicts": {
+    "iou": "Sí",
+    "coverage_pct": "Sí",
+    "false_positive_pct": "Sí",
+    "convergence_s": "Sí",
+    "entropy_bits": "Sí"
+  },
+  "thresholds": {
+    "iou": 0.75,
+    "coverage_pct": 90.0,
+    "false_positive_pct": 5.0,
+    "convergence_s": 300.0,
+    "entropy_bits": 0.15
+  }
+}

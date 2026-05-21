@@ -1,0 +1,28 @@
+{
+  "source_csv": "D:\\FIUBA\\PROTECTOR\\tactical_module\\runs\\2024-09-30_21-37_navigator_path.csv",
+  "gps_sigma_m": 9.0,
+  "error_mean_m": 19.68,
+  "error_p95_m": 41.16,
+  "rmse_m": 22.82,
+  "heading_max_deg": 44.97,
+  "drift_m": 31.9,
+  "gps_recovery_s": 6.5,
+  "path_length_m": 125.0,
+  "verdicts": {
+    "error_mean_m": "No",
+    "error_p95_m": "No",
+    "rmse_m": "No",
+    "heading_max_deg": "No",
+    "drift_m": "No",
+    "gps_recovery_s": "No"
+  },
+  "thresholds": {
+    "error_mean_m": 3.5,
+    "error_p95_m": 5.0,
+    "rmse_m": 4.0,
+    "heading_max_deg": 8.0,
+    "drift_m": 6.0,
+    "gps_recovery_s": 5.0
+  },
+  "recommendation_cep_m": 1.5
+}
