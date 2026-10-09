@@ -1,4 +1,4 @@
-\section{Objetivos particulares}
+\subsection{Objetivos particulares}
 \label{Objetivos particulares}
 
 \begin{itemize}
@@ -10,9 +10,10 @@
     Incorporar y coordinar diversos sensores y actuadores en el prototipo del robot, permitiéndole interactuar de manera precisa con su entorno y recolectar datos esenciales para su funcionamiento y control.
     
     \item \textbf{Realizar pruebas y validación en entornos simulados:}
-    Desarrollar y ejecutar un programa de pruebas exhaustivas en entornos virtuales simulados, asegurando que el robot esté preparado para enfrentar situaciones reales mediante ajustes y mejoras continuas basadas en los resultados obtenidos.
+    Desarrollar y ejecutar un programa de pruebas en el entorno virtual (Unreal Engine~5) para verificar, a alto nivel, el desempeño de la navegación autónoma (localización global, mapeo con LiDAR simulado y planificación de trayectorias), la respuesta del software de control ante eventos dinámicos de misión y la coherencia de la máquina de estados frente a escenarios cambiantes. Las métricas obtenidas en simulación guían la calibración de parámetros y la iteración de algoritmos antes de trasladarlos al prototipo físico.
     
-    \item \textbf{Realizar pruebas y validación en el prototipo físico:} Llevar a cabo una serie de pruebas exhaustivas en el prototipo físico del robot para evaluar su rendimiento en condiciones controladas. Estas pruebas incluirán la validación de su capacidad para detectar y eliminar objetivos de aproximadamente 45x45 centímetros a una distancia de 20 metros, así como la verificación de la integración y funcionamiento de los sensores, actuadores y sistemas de navegación.
+    \item \textbf{Realizar pruebas y validación en el prototipo físico:}
+    Llevar a cabo ensayos sobre el prototipo en condiciones controladas para evaluar, a alto nivel, la movilidad de la plataforma, el desempeño cinemático de la torreta, la capacidad de seguimiento de objetivos mediante visión computacional y la efectividad de neutralización, incluyendo escenarios con uno o más blancos en movimiento. Se verifica además la integración operativa de sensores, actuadores y subsistemas de navegación. Como objetivo de misión integrado, se busca validar la detección y eliminación de objetivos de aproximadamente $45 \times 45\ \text{cm}$ a una distancia de $20\ \text{m}$.
 
     
 \end{itemize}

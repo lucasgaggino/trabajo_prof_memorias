@@ -1,0 +1,90 @@
+---
+description: Trabajo Profesional FIUBA - memoria LaTeX robot militar autonomo
+alwaysApply: true
+---
+
+# Memoria FIUBA - reglas para agentes
+
+Antes de cambios grandes, leer `.cursor/CONTEXT.md`.
+
+## Scope
+
+- Este repo es la memoria LaTeX de un Trabajo Profesional (Ingeniería Electrónica, FIUBA): robot militar autónomo con simulador UE5 y prototipo físico.
+- Editar solo contenido relacionado con el TP. No expandir el tema militar fuera del marco académico.
+- Compilar desde `memorianueva.tex`. No modificar `MastersDoctoralThesis.cls`.
+
+## Estructura de archivos
+
+- Capítulos activos: wrappers en `Chapters/<nombre>.tex` con `\chapter` + `\input{Chapters/<nombre>/...}`.
+- Secciones nuevas: agregar `\input` en el wrapper del capítulo, no en `memorianueva.tex`.
+- Capítulo nuevo: agregar `\include` en `memorianueva.tex` + crear wrapper y carpeta.
+- Figuras finales en `Figures/`. No versionar `.aux`, `.log`, `.toc`, `.pdf` ni otros auxiliares de compilación.
+- `Chapter1.tex` a `Chapter5.tex` son guía FIUBA legacy; no forman parte del documento compilado.
+
+## Redacción FIUBA
+
+- **Memoria** (lo que el lector lee): presente, impersonal. *"En este capítulo se presentan..."*
+- **Proyecto** (lo que se hizo): pasado, impersonal. *"Se implementó el módulo de navegación..."*
+- Español académico. Itálicas para extranjerismos (`\textit{tracking}`).
+- Evitar `\textbf` en párrafos corridos. En listas de objetivos/pruebas, `\textbf{Título:}` es aceptable.
+
+## LaTeX
+
+- Citas: `\citep{clave}` con entradas en `references.bib`.
+- Figuras: siempre `\caption` + `\label{fig:...}`; referenciar en texto con `Figura~\ref{fig:...}`.
+- Tablas de prueba: float `[H]`, labels `tab:criterios_prueba_*` y `tab:resultados_prueba_*`.
+- Unidades matemáticas: `$120\ \text{m}$`, coma decimal `$3{,}5\ \text{m}$`.
+- Estados FSM e identificadores de código: `\texttt{TRACKING}`, `\texttt{NAVIGATING}`.
+
+## Pruebas y resultados
+
+- Seguir la plantilla de 4 subsecciones: Descripción, Criterios, Procedimiento, Resultados.
+- Tabla de resultados incluye columna **Cumple** (Sí/No).
+- Métricas deben coincidir con `scripts/logs/*.json` o datos explícitos del autor. **No fabricar** números ni veredictos.
+- Si faltan datos, dejar placeholder explícito (ej. `[PENDIENTE: medición]`) y no completar con valores inventados.
+
+## Scripts Python
+
+- Salida a `Figures/` y `scripts/logs/`. Reutilizar `scripts/_common.py`.
+- Regenerar assets: `python scripts/run_all_prueba_assets.py`.
+- Rutas de datos fuente en `_common.py` son locales (`D:\FIUBA\PROTECTOR\...`); no asumir que existen en otras máquinas.
+
+## Ejemplos
+
+### Referencia a figura
+
+```latex
+% MAL
+Como se ve en la siguiente figura:
+\begin{figure}[H] ... \end{figure}
+
+% BIEN
+Las Figuras~\ref{fig:prueba_loc_trayectorias} y~\ref{fig:prueba_loc_error} evidencian la separación entre trayectorias.
+\begin{figure}[H]
+  \includegraphics[width=.9\textwidth]{Figures/prueba_localizacion_trayectorias.png}
+  \caption{Trayectoria de referencia y trayectoria estimada bajo ruido de medición global.}
+  \label{fig:prueba_loc_trayectorias}
+\end{figure}
+```
+
+### Fila de tabla de resultados
+
+```latex
+% BIEN - valor real, veredicto honesto
+Error global medio de posicionamiento [m] & 19,68 & No \\
+```
+
+### Item de objetivos
+
+```latex
+% BIEN
+\item \textbf{Implementar algoritmos de navegación:} Crear algoritmos avanzados que permitan al robot moverse de manera autónoma...
+```
+
+## Anti-patterns
+
+- No `\includegraphics` sin `\caption` y `\label`.
+- No "figura siguiente/anterior" sin `\ref`.
+- No negritas ni subrayado en párrafos de cuerpo.
+- No editar PDFs, `.cls` ni artefactos de compilación.
+- No asumir hardware integrado si el texto indica que está pendiente (ej. GNSS NEO-6M).
