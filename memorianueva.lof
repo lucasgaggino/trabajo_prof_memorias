@@ -1,31 +1,30 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Ejemplo de seguimiento por color.}}{8}{figure.caption.5}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Ilustración del proceso de mapeo con LIDAR y SLAM.}}{9}{figure.caption.6}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ejemplo de planificación de ruta utilizando el algoritmo A*.}}{10}{figure.caption.7}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo de seguimiento por color.}}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ilustración del proceso de mapeo con LIDAR y SLAM.}}{7}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ejemplo de planificación de ruta utilizando el algoritmo A*.}}{9}{figure.caption.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Datos de las ruedas elegidas}}{20}{figure.caption.9}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Pinout del Arduino nano}}{21}{figure.caption.10}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Corte del eje}}{23}{figure.caption.12}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Largueros del chasis}}{24}{figure.caption.14}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Base del robot}}{24}{figure.caption.16}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Coraza superior}}{25}{figure.caption.18}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Corte lateral del robot}}{26}{figure.caption.20}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Robot completo}}{26}{figure.caption.22}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Máquina de estados finitos del prototipo}}{29}{figure.caption.25}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Trama del protocolo}}{33}{figure.caption.32}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Captura del entorno de simulación en Unreal Engine 5.}}{38}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Datos de las ruedas elegidas}}{20}{figure.caption.9}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Pinout del Arduino nano}}{21}{figure.caption.10}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Corte del eje}}{23}{figure.caption.12}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Largueros del chasis}}{24}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Base del robot}}{24}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Coraza superior}}{25}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Corte lateral del robot}}{26}{figure.caption.20}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Robot completo}}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Máquina de estados finitos del prototipo}}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Trama del protocolo}}{33}{figure.caption.32}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Comparación entre mapa de referencia del escenario y mapa de ocupación 2D generado por el módulo SLAM (celda de $0{,}15\ \text {m}$).}}{41}{figure.caption.45}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Evolución del índice IoU durante el barrido del entorno.}}{41}{figure.caption.46}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Trayectoria planificada y trayectoria ejecutada en el escenario de misión.}}{43}{figure.caption.54}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Error lateral respecto del camino planificado en función de la distancia recorrida.}}{44}{figure.caption.55}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Trayectoria de referencia y trayectoria estimada bajo ruido de medición global.}}{46}{figure.caption.63}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Error de posicionamiento global en función del tiempo de misión.}}{46}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Captura del entorno de simulación en Unreal Engine 5.}}{38}{figure.caption.37}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparación entre mapa de referencia del escenario y mapa de ocupación 2D generado por el módulo SLAM (celda de $0{,}15\ \text {m}$).}}{41}{figure.caption.45}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Evolución del índice IoU durante el barrido del entorno.}}{41}{figure.caption.46}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Trayectoria planificada y trayectoria ejecutada en el escenario de misión.}}{43}{figure.caption.54}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Error lateral respecto del camino planificado en función de la distancia recorrida.}}{44}{figure.caption.55}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Trayectoria de referencia y trayectoria estimada bajo ruido de medición global.}}{46}{figure.caption.63}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Error de posicionamiento global en función del tiempo de misión.}}{46}{figure.caption.64}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

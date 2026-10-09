@@ -1,0 +1,586 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{redmon2016yolo}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=RJ}{%
+         family={Redmon},
+         familyi={R\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Divvala},
+         familyi={D\bibinitperiod},
+         given={Santosh},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Girshick},
+         familyi={G\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Farhadi},
+         familyi={F\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJ+1}
+    \strng{fullhash}{RJDSGRFA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the {IEEE} Conference on Computer Vision
+  and Pattern Recognition ({CVPR})}
+    \field{pages}{779\bibrangedash 788}
+    \field{title}{You Only Look Once: Unified, Real-Time Object Detection}
+    \field{year}{2016}
+  \endentry
+
+  \entry{ren2015faster}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=RS}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Shaoqing},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Kaiming},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Girshick},
+         familyi={G\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RS+1}
+    \strng{fullhash}{RSHKGRSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Advances in Neural Information Processing Systems
+  ({NeurIPS})}
+    \field{title}{Faster {R-CNN}: Towards Real-Time Object Detection with
+  Region Proposal Networks}
+    \field{year}{2015}
+  \endentry
+
+  \entry{roboflow:drone_detection}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Roboflow Universe}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://universe.roboflow.com/yolo-bv4k3/drone-detection-rmyxm}}
+    \field{note}{Consultado en mayo de 2025}
+    \field{title}{{Drone Detection Dataset}}
+    \field{year}{2024}
+  \endentry
+
+  \entry{durrant2006simultaneous}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DWH}{%
+         family={Durrant-Whyte},
+         familyi={D\bibinithyphendelim W\bibinitperiod},
+         given={Hugh},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Bailey},
+         familyi={B\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DWHBT1}
+    \strng{fullhash}{DWHBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{99\bibrangedash 110}
+    \field{title}{Simultaneous Localization and Mapping: Part {I}}
+    \field{volume}{13}
+    \field{journaltitle}{IEEE Robotics \& Automation Magazine}
+    \field{year}{2006}
+  \endentry
+
+  \entry{thrun2005probabilistic}{book}{}
+    \name{author}{3}{}{%
+      {{hash=TS}{%
+         family={Thrun},
+         familyi={T\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BW}{%
+         family={Burgard},
+         familyi={B\bibinitperiod},
+         given={Wolfram},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={Dieter},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{TSBWFD1}
+    \strng{fullhash}{TSBWFD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Probabilistic Robotics}
+    \field{year}{2005}
+  \endentry
+
+  \entry{montemerlo2002fastslam}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=MM}{%
+         family={Montemerlo},
+         familyi={M\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Thrun},
+         familyi={T\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Koller},
+         familyi={K\bibinitperiod},
+         given={Daphne},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wegbreit},
+         familyi={W\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MM+1}
+    \strng{fullhash}{MMTSKDWB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the {AAAI} National Conference on
+  Artificial Intelligence}
+    \field{pages}{593\bibrangedash 598}
+    \field{title}{{FastSLAM}: A Factored Solution to the Simultaneous
+  Localization and Mapping Problem}
+    \field{year}{2002}
+  \endentry
+
+  \entry{montemerlo2003fastslam}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=MM}{%
+         family={Montemerlo},
+         familyi={M\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Thrun},
+         familyi={T\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Koller},
+         familyi={K\bibinitperiod},
+         given={Daphne},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WB}{%
+         family={Wegbreit},
+         familyi={W\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MM+1}
+    \strng{fullhash}{MMTSKDWB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the {AAAI} National Conference on
+  Artificial Intelligence}
+    \field{pages}{341\bibrangedash 346}
+    \field{title}{{FastSLAM} 2.0: An Improved Particle Filtering Algorithm for
+  Simultaneous Localization and Mapping}
+    \field{year}{2003}
+  \endentry
+
+  \entry{grisetti2010tutorial}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GG}{%
+         family={Grisetti},
+         familyi={G\bibinitperiod},
+         given={Giorgio},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Stachniss},
+         familyi={S\bibinitperiod},
+         given={Cyrill},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BW}{%
+         family={Burgard},
+         familyi={B\bibinitperiod},
+         given={Wolfram},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GGSCBW1}
+    \strng{fullhash}{GGSCBW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{31\bibrangedash 43}
+    \field{title}{A Tutorial on Graph-Based {SLAM}}
+    \field{volume}{2}
+    \field{journaltitle}{IEEE Intelligent Transportation Systems Magazine}
+    \field{year}{2010}
+  \endentry
+
+  \entry{bailey2006simultaneous}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BT}{%
+         family={Bailey},
+         familyi={B\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DWH}{%
+         family={Durrant-Whyte},
+         familyi={D\bibinithyphendelim W\bibinitperiod},
+         given={Hugh},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BTDWH1}
+    \strng{fullhash}{BTDWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{108\bibrangedash 117}
+    \field{title}{Simultaneous Localization and Mapping ({SLAM}): Part {II}}
+    \field{volume}{13}
+    \field{journaltitle}{IEEE Robotics \& Automation Magazine}
+    \field{year}{2006}
+  \endentry
+
+  \entry{wang2007learning}{article}{}
+    \name{author}{5}{}{%
+      {{hash=WCC}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Chieh-Chih},
+         giveni={C\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Thorpe},
+         familyi={T\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Thrun},
+         familyi={T\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hebert},
+         familyi={H\bibinitperiod},
+         given={Martial},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DWH}{%
+         family={Durrant-Whyte},
+         familyi={D\bibinithyphendelim W\bibinitperiod},
+         given={Hugh},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WCC+1}
+    \strng{fullhash}{WCCTCTSHMDWH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{9}
+    \field{pages}{889\bibrangedash 916}
+    \field{title}{Simultaneous Localization, Mapping and Moving Object
+  Tracking}
+    \field{volume}{26}
+    \field{journaltitle}{International Journal of Robotics Research}
+    \field{year}{2007}
+  \endentry
+
+  \entry{lavalle2006planning}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LSM}{%
+         family={LaValle},
+         familyi={L\bibinitperiod},
+         given={Steven\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{LSM1}
+    \strng{fullhash}{LSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Planning Algorithms}
+    \field{year}{2006}
+  \endentry
+
+  \entry{hart1968formal}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HPE}{%
+         family={Hart},
+         familyi={H\bibinitperiod},
+         given={Peter\bibnamedelima E.},
+         giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=NNJ}{%
+         family={Nilsson},
+         familyi={N\bibinitperiod},
+         given={Nils\bibnamedelima J.},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=RB}{%
+         family={Raphael},
+         familyi={R\bibinitperiod},
+         given={Bertram},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HPENNJRB1}
+    \strng{fullhash}{HPENNJRB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{100\bibrangedash 107}
+    \field{title}{A Formal Basis for the Heuristic Determination of Minimum
+  Cost Paths}
+    \field{volume}{4}
+    \field{journaltitle}{IEEE Transactions on Systems Science and Cybernetics}
+    \field{year}{1968}
+  \endentry
+
+  \entry{russell2020aima}{book}{}
+    \name{author}{2}{}{%
+      {{hash=RS}{%
+         family={Russell},
+         familyi={R\bibinitperiod},
+         given={Stuart},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NP}{%
+         family={Norvig},
+         familyi={N\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson}%
+    }
+    \strng{namehash}{RSNP1}
+    \strng{fullhash}{RSNP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{4}
+    \field{title}{Artificial Intelligence: A Modern Approach}
+    \field{year}{2020}
+  \endentry
+
+  \entry{dijkstra1959note}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DEW}{%
+         family={Dijkstra},
+         familyi={D\bibinitperiod},
+         given={Edsger\bibnamedelima W.},
+         giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DEW1}
+    \strng{fullhash}{DEW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{269\bibrangedash 271}
+    \field{title}{A Note on Two Problems in Connexion with Graphs}
+    \field{volume}{1}
+    \field{journaltitle}{Numerische Mathematik}
+    \field{year}{1959}
+  \endentry
+
+  \entry{lavalle1998rrt}{report}{}
+    \name{author}{1}{}{%
+      {{hash=LSM}{%
+         family={LaValle},
+         familyi={L\bibinitperiod},
+         given={Steven\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LSM1}
+    \strng{fullhash}{LSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Rapidly-Exploring Random Trees: A New Tool for Path Planning}
+    \list{institution}{1}{%
+      {Computer Science Department, Iowa State University}%
+    }
+    \field{type}{techreport}
+    \field{year}{1998}
+  \endentry
+
+  \entry{geraerts2003creating}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=GR}{%
+         family={Geraerts},
+         familyi={G\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=OMH}{%
+         family={Overmars},
+         familyi={O\bibinitperiod},
+         given={Mark\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GROMH1}
+    \strng{fullhash}{GROMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the {IEEE} International Conference on
+  Robotics and Automation ({ICRA})}
+    \field{pages}{382\bibrangedash 388}
+    \field{title}{Creating High-Speed Roads through Memory-Based Path Planning}
+    \field{year}{2003}
+  \endentry
+
+  \entry{astrom2006pid}{book}{}
+    \name{author}{2}{}{%
+      {{hash=AKJ}{%
+         family={{\AA}str{\"o}m},
+         familyi={{\AA}\bibinitperiod},
+         given={Karl\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={H{\"a}gglund},
+         familyi={H\bibinitperiod},
+         given={Tore},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {ISA -- The Instrumentation, Systems}%
+      {Automation Society}%
+    }
+    \strng{namehash}{AKJHT1}
+    \strng{fullhash}{AKJHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Advanced {PID} Control}
+    \field{year}{2006}
+  \endentry
+
+  \entry{coulter1992pure}{report}{}
+    \name{author}{1}{}{%
+      {{hash=CRC}{%
+         family={Coulter},
+         familyi={C\bibinitperiod},
+         given={R.\bibnamedelima Craig},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CRC1}
+    \strng{fullhash}{CRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Implementation of the Pure Pursuit Path Tracking Algorithm}
+    \list{institution}{1}{%
+      {Carnegie Mellon University, Robotics Institute}%
+    }
+    \field{type}{techreport}
+    \field{year}{1992}
+  \endentry
+
+  \entry{rawlings2017mpc}{book}{}
+    \name{author}{3}{}{%
+      {{hash=RJB}{%
+         family={Rawlings},
+         familyi={R\bibinitperiod},
+         given={James\bibnamedelima B.},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MDQ}{%
+         family={Mayne},
+         familyi={M\bibinitperiod},
+         given={David\bibnamedelima Q.},
+         giveni={D\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Diehl},
+         familyi={D\bibinitperiod},
+         given={Moritz},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nob Hill Publishing}%
+    }
+    \strng{namehash}{RJBMDQDM1}
+    \strng{fullhash}{RJBMDQDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{2}
+    \field{title}{Model Predictive Control: Theory, Computation, and Design}
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput
